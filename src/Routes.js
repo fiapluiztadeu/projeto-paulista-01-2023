@@ -4,8 +4,7 @@ import Sobre from './paginas/sobre';
 import Cep from "./paginas/cep";
 import Home from "./paginas/home";
 
-// imposts fafa
-export default function Routes(){
+// imposts fafaexport default function Routes(){
     return(
         <Switch>
               <Route exact path='/'>
