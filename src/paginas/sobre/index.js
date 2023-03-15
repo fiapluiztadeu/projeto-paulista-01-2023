@@ -1,9 +1,10 @@
 import React from "react";
-
+import {ContainerPage, TittlePage} from '../../components/main'
 export default function Sobre (){
 return(
     <>
-        <h1>PAGINA SOBRE </h1>
+    <ContainerPage>
+        <TittlePage>PAGINA SOBRE </TittlePage>
         <p>CONTEUDO LALALALFLFALFAL</p>
                 <table>
         <tr>
@@ -37,6 +38,7 @@ in the source         code,
 but the        browser
 ignores it.
 </p>
+</ContainerPage>
     </>
 )
 

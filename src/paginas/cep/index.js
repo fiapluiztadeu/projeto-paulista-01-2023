@@ -5,6 +5,8 @@ export default function Cep(){
         <>
         <h1>PESQUISAR CEP</h1>
         <h3> AQUI VAI MEU FORMS DE PESQUISA CEP        </h3>
+        DIGITE SEU CEP:<input   />
+
         </>
     )
 

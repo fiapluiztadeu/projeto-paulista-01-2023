@@ -1,6 +1,7 @@
 import React from 'react';
 import {AreaHeader} from './styled';
 import {Link} from 'react-router-dom';
+import imgLogo from "../../imagens/logo192.png"
 
 
 function Header() {
@@ -9,7 +10,10 @@ function Header() {
       <AreaHeader>
       <div className='container'>
           <div className='logo'>
-              <p>LOGO</p>
+            
+
+        <img src={imgLogo} alt="imagem" className='logo'/>
+            
           </div>
           
         <nav>

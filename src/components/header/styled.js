@@ -10,6 +10,7 @@ export const AreaHeader = styled.div `
     }
         .logo{
             flex: 1;
+            height: 30px;
         }
         nav{
             ul{

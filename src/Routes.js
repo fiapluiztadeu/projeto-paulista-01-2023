@@ -9,16 +9,17 @@ export default function Routes(){
         <Switch>
               <Route exact path='/'>
                     <Home></Home>
-                </Route> 
+               </Route> 
 
              <Route exact path='/cep'>
                     <Cep></Cep>
-                </Route> 
+             </Route> 
 
-               <Route exact path='/sobre'>
+            <Route exact path='/sobre'>
                     <Sobre></Sobre>
-                </Route> 
+            </Route> 
 
+          
         </Switch>
 
     )
